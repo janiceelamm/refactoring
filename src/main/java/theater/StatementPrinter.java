@@ -34,7 +34,7 @@ public class StatementPrinter {
         final StringBuilder result = getResultBuilder();
 
         getAppend(result, getTotalAmount());
-        result.append(String.format("You earned %s credits%n", getTotalVolumeCredits()));
+        result.append(String.format("You earned %s credits%n", getVolumeCredits()));
         return result.toString();
     }
 
@@ -57,7 +57,7 @@ public class StatementPrinter {
         return result;
     }
 
-    private int getTotalVolumeCredits() {
+    private int getVolumeCredits() {
         int volumeCredits = 0;
         for (Performance p : invoice.getPerformances()) {
 
