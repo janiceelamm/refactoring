@@ -1,3 +1,5 @@
+140268f complete Task 2.1 steps 1 to 4iii
+d641d27 complete Task 1.2
 d689e05 complete Task 1.1
 2b4f164 fixed tests for the not-for-credit tasks; parameter ordering and ensuring consistent line endings.
 ff5004e adding shortcut keys for Inline Variable (Re: Piazza question)
